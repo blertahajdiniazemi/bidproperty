@@ -1,0 +1,9 @@
+{
+  "recaptcha_version": 3,
+  "client_uid": "MMT7mwJl",
+  "product_url": "https://b12.io",
+  "debug": false,
+  "preview_frame_script": "https://static.b12.io/static/preview_frame_v2/preview_frame_v2.e8001dd55ec0.js",
+  "website_url": "https://bidding-platform-staging.b12sites.com",
+  "is_preview": true
+}

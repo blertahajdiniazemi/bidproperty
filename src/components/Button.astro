@@ -1,0 +1,6 @@
+---
+interface Props { href?: string; class?: string; type?: 'button' | 'submit' | 'reset' }
+const { href, class: className = '', type = 'button' } = Astro.props as Props;
+const base = `inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90 ${className}`;
+---
+{href ? <a href={href} class={base}><slot /></a> : <button type={type} class={base}><slot /></button>}

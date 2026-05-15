@@ -1,0 +1,8 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import RequiredB12HeadScripts from '../components/RequiredB12HeadScripts.astro';
+import RequiredB12FooterScripts from '../components/RequiredB12FooterScripts.astro';
+---
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width"/><link rel="icon" href="/favicon.svg"/><title>Account - BidProperty</title><meta name="description" content="Manage your BidProperty account settings and profile."/><RequiredB12HeadScripts/></head><body class="bg-background text-foreground"><Header currentPage="account"/><main><section class="py-12 px-4 border-b border-border bg-muted"><div class="max-w-6xl mx-auto"><h1 class="text-4xl font-bold mb-2">Account Settings</h1><p class="text-muted-foreground">Manage your profile, security, and preferences</p></div></section><section class="py-16 px-4"><div class="max-w-2xl mx-auto text-center"><div class="bg-primary/5 border-2 border-primary/20 p-12 rounded-lg"><h2 class="text-2xl font-bold mb-4">Sign in to manage your account</h2><p class="text-muted-foreground mb-8">You need to be signed in to access account settings and manage your profile.</p><div class="flex gap-4 justify-center flex-wrap"><a href="/sign-in" class="px-6 py-3 bg-primary text-primary-foreground rounded font-semibold hover:opacity-90">Sign In</a><a href="/sign-up" class="px-6 py-3 border-2 border-primary text-primary rounded font-semibold hover:bg-muted">Create Account</a></div></div></div></section></main><Footer/><RequiredB12FooterScripts/></body></html>

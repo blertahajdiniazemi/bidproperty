@@ -1,0 +1,24 @@
+---
+const year = new Date().getFullYear();
+---
+<footer class="border-t border-border bg-card">
+  <div class="mx-auto grid max-w-6xl gap-8 px-4 py-12 md:grid-cols-4">
+    <div class="md:col-span-2">
+      <div class="mb-3 flex items-center gap-2 text-xl font-bold"><span class="flex size-9 items-center justify-center rounded-lg bg-primary text-primary-foreground">BP</span> BidProperty</div>
+      <p class="max-w-md text-sm text-muted-foreground">Secure property bidding platform built with modern infrastructure for buyers, sellers, and investors.</p>
+    </div>
+    <div>
+      <h3 class="mb-3 font-semibold">Platform</h3>
+      <div class="flex flex-col gap-2 text-sm text-muted-foreground">
+        <a href="/properties" class="hover:text-primary">Properties</a>
+        <a href="/my-bids" class="hover:text-primary">My Bids</a>
+        <a href="/account" class="hover:text-primary">Account</a>
+      </div>
+    </div>
+    <div>
+      <h3 class="mb-3 font-semibold">Security</h3>
+      <p class="text-sm text-muted-foreground">GitHub, Vercel, Supabase, and Cloudflare-ready foundation.</p>
+    </div>
+  </div>
+  <div class="border-t border-border px-4 py-4 text-center text-sm text-muted-foreground">© {year} BidProperty. All rights reserved.</div>
+</footer>
